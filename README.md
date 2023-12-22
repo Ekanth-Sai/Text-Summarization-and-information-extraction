@@ -1,53 +1,40 @@
-<h1 align = "center">
-  Text Summarisation and Information Extraction
+<h1 align="centre">
+   <img src="https://i.imgur.com/1HbEEj6.png">
 </h1>
 
-# Abstract
-## Text Summarization
-Utilizing spaCy's advanced NLP capabilities, the system employs extractive summarization techniques to condense lengthy textual content while preserving the essence and context.
-
-## File Summarization
-•	Extending beyond individual text documents, the project supports the summarization of entire files, be they in text or PDF formats. This feature aids in efficient management and comprehension of large datasets.
-
-## Web Scraping
-•	The system incorporates web scraping functionalities to fetch and process information from online sources. This ensures that the summarization process is not confined to pre-existing datasets but can dynamically adapt to the evolving landscape of the internet.
-
-## Keyword Extraction
-•	Employing spaCy's linguistic processing capabilities, the project identifies and extracts key terms and phrases from the content. This feature enhances information retrieval and facilitates quick understanding of the document's main topics.
-
-## User-Friendly Interface
-•	The project uses Streamlit library to provides a user-friendly interface for seamless interaction. Users can input text, upload files, or specify web URLs for summarization and keyword extraction.
+# Table of Contents
+- [Introduction](#introduction) <br>
+- [Requirements](#requirements) <br>
+- [How to use](#how-to-use) <br>
+- [Contribution](#contribution)
 
 # Introduction
-•	In the era of information overload, the "Text Summarization and Information Extraction Tool" is an innovative project designed to empower users with efficient and intelligent methods for processing textual content. This tool combines the capabilities of Natural Language Processing (NLP) and web scraping to facilitate text summarization and information retrieval from both user-provided text and online sources, such as Wikipedia articles.
+-	•	In the era of information overload, the "Text Summarization and Information Extraction Tool" is an innovative project designed to empower users with efficient and intelligent methods for processing textual content. This tool combines the capabilities of Natural Language Processing (NLP) and web scraping to facilitate text summarization and information retrieval from both user-provided text and online sources, such as Wikipedia articles.
 
-# Literature Review
-## Text Summarization Techniques
-•	Over the years, various approaches have been explored in the realm of text summarization. Early methods were rule-based, relying on predefined linguistic patterns. However, the shift towards machine learning and NLP algorithms, such as those offered by spaCy, has significantly enhanced the accuracy and contextual understanding of summarization.
+# Requirements
+For running the code, make sure that the following are installed on your local device.
+|Module|Versio|
+|-|-|
+|Python|3.11.x|
+|Streamlit|1.27.x|
+|Spacy|3.x|
+|Requests|2.31.x|
+|Beautiful Soup|4.12.x|
+|pdfplumber|0.10.x|
 
-## File Summarization Strategies
-•	While text summarization primarily focuses on individual documents, file summarization extends this capability to broader datasets. The challenge lies in maintaining coherence and relevance across multiple documents. Research in this area emphasizes clustering, topic modelling, and advanced linguistic analysis — all areas where spaCy's capabilities come to the forefront.
+# How to use
+1. Clone this repo. <br>
+-  ```terminal
+   git clone https://github.com/Ekanth-Sai/Text-Summarization-and-information-extraction
+   ```
 
-## Web Scraping for Dynamic Content
-•	As the digital landscape evolves, web scraping has become integral to information extraction. The literature acknowledges the need for tools that can dynamically adapt to changing online content. The fusion of spaCy's linguistic analysis with web scraping techniques opens new possibilities for real-time summarization.
-
-## Keyword Extraction for Enhanced Understanding
-•	Keyword extraction is pivotal for distilling the core themes of a document. SpaCy's capabilities in linguistic analysis make it a natural choice for extracting meaningful keywords that encapsulate the essence of the text.
-
-# Methodology 
-## Algorithm
-### insert function
-
-# Conclusion
-## Use cases
-<p>•	Content Aggregation for News Outlets</p>
-<p>•	Legal Document Summarization for Law Firms</p>
-<p>•	Academic Paper Summarization for Researchers</p>
-<p>•	Medical Report Summarization for Healthcare Professionals</p>
-
-## Enhancements
-<p>•	Multilingual Support</p>
-<p>•	User Customization</p>
-<p>•	Integration with External APIs</p>
-<p>•	Real-time Summarization</p>
-<p>•	Enhanced Keyword Visualization</p>
+1. Install the required libraries from [Requirements](#requirements) <br>
+1. Execute the python script <br>
+1. Add star to this repo if you liked it 😄
+   
+# Contribution 
+**This section provides instructions and details on how to submit a contribution via a pull request. It is important to follow these guidelines to make sure your pull request is accepted.**
+1. Before choosing to propose changes to this project, it is advisable to go through the readme.md file of the project to get the philosphy and the motive that went behind this project. The pull request should align with the philosphy and the motive of the original poster of this project.
+2. To add your changes, make sure that the programming language in which you are proposing the changes should be same as the programming language that has been used in the project. The versions of the programming language and the libraries(if any) used should also match with the original code.
+3. Write a documentation on the changes that you are proposing. The documentation should include the problems you have noticed in the code(if any), the changes you would like to propose, the reason for these changes, and sample test cases. Remember that the topics in the documentation is strictly not limited to the topics aforementioned, but are just an inclusion.
+4. Submit a pull request via [Git etiquettes](https://gist.github.com/mikepea/863f63d6e37281e329f8) 
